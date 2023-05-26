@@ -1,0 +1,62 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'DevTeam'
+theme = "hugo-universal-theme"
+
+defaultContentLanguage = "en"
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        identifier = "landscape"
+        name = "Landscape"
+        url = "/landscape"
+        weight = 2
+    [[menu.main]]
+        identifier = "team"
+        name = "Team"
+        url = "/team"
+        weight = 3
+    [[menu.main]]
+        identifier = "career"
+        name = "Career"
+        url = "/career"
+        weight = 4
+    [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog"
+        weight = 5
+    [[menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+        weight = 6
+
+[params]
+  style = "blue"
+  copyright = "Copyright (c), DevTeam ; all rights reserved."
+
+  logo = "/img/logo.png"
+  logo_small = "/img/logo.png"
+
+  contact_url = "/contact"
+  address = """<p class="text-uppercase"><strong>Vinci Energies Systèmes d'Information</strong>
+        <br>8 avenue du Stade de France
+        <br>Saint-Denis
+        <br>93200
+        <br>France
+      </p>
+      """
+  formspree_action = "https://formspree.io/f/xpzenwda"
+  contact_form_ajax = "false"
+
+[params.carouselHomepage]
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more information take a look at the README.
+    enable = true
